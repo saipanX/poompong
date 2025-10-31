@@ -50,7 +50,7 @@ public class Basket {
         if (GameLoader.basket != null) {
             g.drawImage(GameLoader.basket, this.x, this.y, this.width, this.height, null);
         }
-    }
+    }''
 
 
     public Rectangle getBounds() {

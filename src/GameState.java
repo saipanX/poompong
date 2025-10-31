@@ -31,12 +31,12 @@ public class GameState {
             this.targetScore = 500;
             this.maxHp = 5;
         } else if (newLevel == 2) {
-            this.time = 90;
+            this.time = 120;
             this.targetScore = 2000;
             this.maxHp = 7;
         } else if (newLevel == 3) {
-            this.time = 90;
-            this.targetScore = 4000;
+            this.time = 180;
+            this.targetScore = 3500;
             this.maxHp = 10;
         }
     }
