@@ -1,0 +1,68 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    background: linear-gradient(180deg,#f8ede3,#dfd3c3);
+    color:#4b3832;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width: 520px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+input, select, button {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 6px;
+    border: 1px solid #b08968;
+    width: 100%;
+}
+
+button {
+    background: #6f4e37;
+    color: #fff;
+    border:none;
+    cursor:pointer;
+}
+button:hover { background: #56382d; }
+
+a { color:#6f4e37; text-decoration:none;}
+a:hover { text-decoration:underline; }
+
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top:15px;
+}
+.menu-table th, .menu-table td {
+    border:1px solid #b08968;
+    padding:6px;
+    text-align:center;
+}
+.menu-table img {
+    border-radius: 8px;
+    box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+
+.btn {
+    display:inline-block;
+    padding:6px 12px;
+    background:#6f4e37;
+    color:#fff;
+    border-radius:6px;
+    text-decoration:none;
+}
+.btn:hover { background:#56382d; }
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;       /* เปลี่ยนจาก center เป็นซ้าย */
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.9);
+    font-weight: bold;
+}
